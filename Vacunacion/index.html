@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>Tu Vacuna</title>
+    <link rel="icon" href="img/favicon.png">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">    
+    <a class="navbar-brand logo-image" href="#">
+        <img src="img/logo.png" alt="">
+    </a>
+    <nav class="navbar">    
+        <a href="#vacunas">Conoce las Vacunas</a>
+        <a href="#agendar">Agenda tu Cita</a>
+        <a href="#recomendar">Recomendaciones</a>
+        <a href="#contacto">Contactos de Emergencia</a>        
+    </nav>    
+</header>
+
+<section class="inicio" id="inicio">
+    <div class="row">        
+        <div class="content">
+            <h3>Gánale al Virus</h3>
+            <p>Tu Vacuna es un portal en el que encontraras orientacion sobre la vacunacion contra Covid19 </p>
+            <img src="https://img.icons8.com/color/48/000000/security-checked--v1.png" width="3%"/>
+            <label>Mayor Protección</label>     
+            <img src="https://img.icons8.com/color/48/000000/keyhole-shield.png" width="3%"/>
+            <label>Mayor Seguridad</label>                          
+        </div>
+        <div class="image">
+            <img src="img/imagen1.png" alt="">
+        </div>                 
+    </div>
+    
+</section>
+
+<section class="vacunas" id="vacunas">
+    <h1 class="heading"> <span>Conoce las Vacunas</span>
+    <div class="slider">
+        <ul>
+            <li><img src="img/pfizer.png" alt=""></li>
+            <li><img src="img/astrazeneca.png" alt=""></li>
+            <li><img src="img/sinovac.png" alt=""></li>
+            <li><img src="img/moderna.png" alt=""></li>
+        </ul>
+    </div>
+</section>
+
+<section class="agendar" id="agendar">
+    <h1 class="heading"> <span>Agenda tu Cita</span></h1>
+    <div class="row">
+        <form action="">            
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="Nombre Completo">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-location-arrow"></span>
+                <input type="location" placeholder="Dirección">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-calendar"></span>
+                <input type="date" placeholder="Fecha">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-virus"></span>
+                <label for="vacuna"> Marca de la vacuna</label>
+                <select id="vacuna" name="vacuna">
+                    <option value="pfizer">Pfizer</option>
+                    <option value="astrazeneca">Astrazeneca</option>
+                    <option value="sinovac">Sinovac</option>
+                    <option value="moderna">Moderna</option>
+                </select>
+             </div>      
+            <input type="submit" value="Agendar" class="btn">
+        </form>
+    </div>
+</section>
+
+<section class="recomendar" id="recomendar">
+    <h1 class="heading"> <span>Recomendaciones antes de la Vacuna</span> </h1>
+    <div class="box-container">
+        
+        <div class="box">            
+            <div class="image">
+                <img src="img/desayuno.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Desayunar</h3>                
+                <div class="price">Se recomienda consumir alimentos nutritivos.</div>
+            </div>
+        </div>
+
+        <div class="box">            
+            <div class="image">
+                <img src="img/medicamento.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Tomar medicamento</h3>                
+                <div class="price">Si consumes un medicamento no debes dejar de tomarlo.</div>
+            </div>
+        </div>
+
+        <div class="box">            
+            <div class="image">
+                <img src="img/agua.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Beber Agua</h3>                
+                <div class="price">Antes, durante y después de la vacuna debes mantenerte hidratado.</div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="contacto" id="contacto">
+    <h1 class="heading"> <span>Contactos de Emergencia</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="img/cruzroja.png" alt="">
+            <h3>5557896541</h3>            
+            <a href="#" class="btn">Llamar</a>
+        </div>
+
+        <div class="box">
+            <img src="img/imss.png" alt="">
+            <h3>5547812245</h3>
+            <a href="#" class="btn">Llamar</a>
+        </div>
+
+        <div class="box">
+            <img src="img/proteccion.png" alt="">
+            <h3>5596854123</h3>
+            <a href="#" class="btn">Llamar</a>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="credit">Síguenos en nuestras redes sociales</div>
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>       
+    </div>
+</section>
+
+</body>
+</html>
